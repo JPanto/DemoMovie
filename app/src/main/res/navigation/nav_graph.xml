@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/zeroFragment"
-        android:name="com.example.androidtest.ZeroFragment"
+        android:name="com.example.androidtest.ui.fragments.ZeroFragment"
         android:label="fragment_zero"
         tools:layout="@layout/fragment_zero" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.example.androidtest.FirstFragment"
+        android:name="com.example.androidtest.ui.fragments.FirstFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.example.androidtest.SecondFragment"
+        android:name="com.example.androidtest.ui.fragments.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <action

@@ -1,4 +1,4 @@
-package com.example.androidtest;
+package com.example.androidtest.ui.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,6 +11,8 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
+
+import com.example.androidtest.R;
 
 public class SecondFragment extends Fragment {
 
