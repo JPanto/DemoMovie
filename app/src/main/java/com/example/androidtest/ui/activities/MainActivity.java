@@ -1,4 +1,4 @@
-package com.example.androidtest;
+package com.example.androidtest.ui.activities;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.androidtest.R;
 
 public class MainActivity extends AppCompatActivity {
 
