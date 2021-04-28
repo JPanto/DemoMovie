@@ -3,8 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/ZeroFragment">
 
+    <fragment
+        android:id="@+id/ZeroFragment"
+        android:name="com.example.androidtest.ZeroFragment"
+        android:label="@string/zero_fragment_label"
+        tools:layout="@layout/fragment_zero">
+
+        <action
+            android:id="@+id/action_ZeroFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.androidtest.FirstFragment"
