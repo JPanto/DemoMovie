@@ -3,18 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".ZeroFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <Button
+        android:id="@+id/btn_navegate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Navegar"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
 
     <Button
-        android:id="@+id/btn_next"
+        android:id="@+id/btn_resume"
         android:layout_width="200dp"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
+        android:text="Continuar Viendo"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
         />
 
 </FrameLayout>
